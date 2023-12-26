@@ -2,9 +2,9 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile_starter/0_starter/navigation/auto_router/app_router.dart';
+import 'package:flutter_mobile_starter/1_dependency_injection/dependency_injection.dart';
 
-import 'common/dependency_injection/dependency_injection.dart';
-import 'common/navigation/auto_router/app_router.dart';
 
 void main() {
   configureDependencies();
